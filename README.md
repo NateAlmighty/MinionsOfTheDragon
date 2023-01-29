@@ -7,7 +7,7 @@ Includes 3 separate classes, known as jobs:
 2. Adventurer: Average Health and Attack
 3. Rogue: Low Health, High Attack
 
-Includes 3 different quests:
+Includes 3 different requests:
 1. Goblin Hunting
 2. Orc Slayer
 3. Defeat the Orc Leader
