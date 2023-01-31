@@ -17,7 +17,8 @@ Includes a basic exploration system that allows you to find enemies, go back to 
 Includes a leveling system that increases your level after each quest.
 
 # Add in Future:
-1. Inventory/Loot System
-2. In-Town Shopping Between Missions
-3. Abilities/Mana
-4. More Classes (Mage, Priest)
+1. Abilities/Mana
+2. More Classes (Mage, Monk)
+3. Inventory/Loot System
+4. In-Town Shopping Between Missions 
+5. More requests (fight harpies, bandits, minotaurs, and a secret BBEG!)
