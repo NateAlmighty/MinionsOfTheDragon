@@ -12,6 +12,7 @@ Changed/Added a few things:
 * Added a new class: Mage
 * Changed Adventurer class name to Monk
 * Increased enemies' health
+* Can now type answers in uppercase or lowercase
 
 Also added 1 ability to each class:
 
