@@ -1,7 +1,25 @@
 # TextRPGProject
 A Text RPG Game created for my own fun times! Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
 
-# V1.0
+# V1.1 Patch Notes:
+#Introducing: Mana and abilities!
+
+Changed/Added a few things:
+
+* Added mana to each class
+* Added rounds to fights
+* Added a new class: Mage
+* Changed Adventurer class name to Monk
+* Increased enemies' health
+
+Also added 1 ability to each class:
+
+1. Warrior now has Berserk, which attacks twice
+2. Monk (formerly adventurer) now has Heal, which increases health
+3. Rogue now has Sneak Attack, which deals massive damage on the first round of the fight
+4. Mage now has Fireball, which deals insane damage
+
+# V1.0:
 Includes 3 separate classes, known as jobs:
 1. Warrior: High Health, Low Attack
 2. Adventurer: Average Health and Attack
@@ -17,8 +35,6 @@ Includes a basic exploration system that allows you to find enemies, go back to 
 Includes a leveling system that increases your level after each quest.
 
 # Add in Future:
-1. Abilities/Mana
-2. More Classes (Mage, Monk)
-3. Inventory/Loot System
-4. In-Town Shopping Between Missions 
-5. More requests (fight harpies, bandits, minotaurs, and a secret BBEG!)
+1. Inventory/Loot System
+2. In-Town Shopping Between Missions 
+3. More requests (fight harpies, bandits, minotaurs, and a secret BBEG!)
