@@ -6,6 +6,7 @@ A Text RPG Game created for my own fun times! Please leave me feedback here or i
 
 Changed/Added a few things:
 
+* Fixed Town system
 * Added mana to each class
 * Added rounds to fights
 * Added a new class: Mage
