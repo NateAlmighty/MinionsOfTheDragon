@@ -1,8 +1,8 @@
 # TextRPGProject
 A Text RPG Game created for my own fun times! Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
 
-# V1.1 Patch Notes:
-#Introducing: Mana and abilities!
+# V1.1 Patch Notes
+# Introducing: Mana and abilities! 
 
 Changed/Added a few things:
 
