@@ -21,7 +21,7 @@ Also added 1 ability to each class:
 3. Rogue now has Sneak Attack, which deals massive damage on the first round of the fight
 4. Mage now has Fireball, which deals insane damage
 
-# V1.0:
+# V1.0 (Deleted):
 Includes 3 separate classes, known as jobs:
 1. Warrior: High Health, Low Attack
 2. Adventurer: Average Health and Attack
