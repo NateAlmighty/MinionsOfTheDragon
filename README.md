@@ -77,9 +77,7 @@ Includes a basic exploration system that allows you to find enemies, go back to 
 Includes a leveling system that increases your level after each quest.
 
 # Add in Future:
-1. Autosave
-2. Multiple Save Files (For saving multiple characters)
-3. Typewriter effect
-4. Pauses between screen changes
-5. Colored Text
-6. End Game talents/achievements system
+
+1. Colored Text
+2. End Game talents/achievements system
+3. Recreate game in Pygame with buttons instead of text - This will be V3.0 
