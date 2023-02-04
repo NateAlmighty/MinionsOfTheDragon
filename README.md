@@ -30,6 +30,7 @@ Added a TON of new stuff:
 * Shamans rely on totems to deal Damage Over Time
 * Shamans do not have ATK stat
 * Shamans DO have TOTEM ATK stat!
+* Added END GAME BOSS: The evil Dragon!!!
 
 # V1.1 Patch Notes
 # Introducing: Mana and abilities! 
