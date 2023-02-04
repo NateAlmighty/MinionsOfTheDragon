@@ -1,4 +1,4 @@
-# TextRPGProject
+# Minions of the Dragon
 A Text RPG Game created for my own fun times!
 Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
 
@@ -11,8 +11,9 @@ How To Download:
 6. Enjoy!
 
 # V2.1 Patch Notes
-# NOW WITH SAVE FILES! Also: Typewriter now live!
+# NOW WITH SAVE FILES! And More!!
 
+* Finally no longer generically named: Minions of the Dragon is now live!
 * Autosave Added!
 * 9 Optional Save Slots for a Total of 10 Save Files!
 * Typewriter effect added!
