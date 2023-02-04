@@ -15,21 +15,21 @@ How To Download:
 
 Added a TON of new stuff:
 
-*Added an entire world and map system!
-*Updated UI to be more player-friendly
-*Added Elixirs: Restores mana
-*The town now has a mayor's house where you pick up quests!
-*The town now has a shop system to upgrade armor, weapons, and trinkets!
-*Inputs are now numbered options for faster-paced gameplay!
-*Enemies have a chance to drop potions and elixirs!
-*Enemies now drop gold!
-*Rest system has been removed due to high potion/gold drops
-*Monk class changed to Warlock
-*Warlock's Heal ability changed to Life Leech
-*Shaman class has been added!
-*Shamans rely on totems to deal Damage Over Time
-*Shamans do not have ATK stat
-*Shamans DO have TOTEM ATK stat!
+* Added an entire world and map system!
+* Updated UI to be more player-friendly
+* Added Elixirs: Restores mana
+* The town now has a mayor's house where you pick up quests!
+* The town now has a shop system to upgrade armor, weapons, and trinkets!
+* Inputs are now numbered options for faster-paced gameplay!
+* Enemies have a chance to drop potions and elixirs!
+* Enemies now drop gold!
+* Rest system has been removed due to high potion/gold drops
+* Monk class changed to Warlock
+* Warlock's Heal ability changed to Life Leech
+* Shaman class has been added!
+* Shamans rely on totems to deal Damage Over Time
+* Shamans do not have ATK stat
+* Shamans DO have TOTEM ATK stat!
 
 # V1.1 Patch Notes
 # Introducing: Mana and abilities! 
