@@ -1,5 +1,12 @@
 # TextRPGProject
 A Text RPG Game created for my own fun times! Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
+How To Download:
+1. Choose which version you want to download (I highly suggest the latest release)
+2. Click the .zip file for selected version
+3. Click the "download" button on the bottom-right side of the screen
+4. Choose your destination
+5. Extract the zip file and run the .exe
+6. Enjoy!
 
 # V2.0 Patch Notes
 # HUGE Improvements! STORY! BBEG REVEALED!
