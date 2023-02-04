@@ -10,6 +10,14 @@ How To Download:
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
+# V2.1 Patch Notes
+# NOW WITH SAVE FILES! Also: Typewriter now live!
+
+* Autosave Added!
+* 9 Optional Save Slots for a Total of 10 Save Files!
+* Typewriter effect added!
+* Devs will notice I've cleaned the code, too ;)
+
 # V2.0 Patch Notes
 # HUGE Improvements! STORY! BBEG REVEALED!
 
