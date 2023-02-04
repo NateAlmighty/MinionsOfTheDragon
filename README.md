@@ -1,7 +1,7 @@
 # TextRPGProject
 A Text RPG Game created for my own fun times! Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
 
-#V2.0 Patch Notes
+# V2.0 Patch Notes
 # HUGE Improvements! STORY! BBEG REVEALED!
 
 Added a TON of new stuff:
