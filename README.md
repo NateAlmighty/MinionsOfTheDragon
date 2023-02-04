@@ -1,5 +1,7 @@
 # TextRPGProject
-A Text RPG Game created for my own fun times! Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
+A Text RPG Game created for my own fun times!
+Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
+
 How To Download:
 1. Choose which version you want to download (I highly suggest the latest release)
 2. Click the .zip file for selected version
