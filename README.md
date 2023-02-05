@@ -1,6 +1,6 @@
 # Minions of the Dragon
 A Text RPG Game created for my own fun times!
-Please leave me feedback here or in my discord DMs (if you know me) when you have the chance!
+Please leave me feedback here or (if you know me) in my Discord DMs when you have the chance!
 
 How To Download:
 1. Choose which version you want to download (I highly suggest the latest release)
@@ -9,6 +9,17 @@ How To Download:
 4. Choose your destination
 5. Extract the zip file and run the .exe
 6. Enjoy!
+
+If you'd like to submit a bug/suggestion on GitHub:
+1. Make sure it is for the latest version of the game, since I'm not updating any of the previous versions
+2. Go to the Issues tab in the top-left of this site
+3. Click the button "New Issue" in the upper left corner
+4. Give it a title, and describe the following:
+  * Job of your Character
+  * Level of Character
+  * Quest you were on
+  * What the bug/suggestion is
+5. Be aware I may respond to ask for more info depending on situation.
 
 # V2.1 Patch Notes
 # NOW WITH SAVE FILES! And More!!
