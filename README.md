@@ -92,4 +92,4 @@ Includes a leveling system that increases your level after each quest.
 1. Colored Text
 2. End Game talents/achievements system
 3. Recreate game in Pygame with buttons and sounds instead of just text - This will be V3.0 
-4. V4.0 Will include animations and a 3D map!
+4. V4.0 Will include animations, a 3D map, and more!
