@@ -21,6 +21,27 @@ If you'd like to submit a bug/suggestion on GitHub:
   * What the bug/suggestion is
 5. Be aware I may respond to ask for more info depending on situation.
 
+# V2.2 Patch Notes
+# FINALLY WE HAVE ENDGAME!
+
+* Colored Text!
+* Fixed HUGE Bugs
+* Update old save files!
+
+Added several new endgame features:
+
+* Achievements:
+ 1. "Exploration" achievements to see all the biomes!
+ 2. "Slayer" achievements to kill every enemy type!
+ 3. "Shopping" achievements to buy every item!
+ 4. "Meta" achievements to track your game completion!
+ 
+* Talents!
+ 1. MAXHP increases when you explore the world!
+ 2. ATK increases when you slay enemies!
+ 3. MAXMP increases when you buy items!
+ 4. And upon completing an aspect of the game, a 100 to all stats increase!
+ 
 # V2.1 Patch Notes
 # NOW WITH SAVE FILES! And More!!
 
