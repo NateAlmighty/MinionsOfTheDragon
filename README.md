@@ -110,7 +110,6 @@ Includes a leveling system that increases your level after each quest.
 
 # Add in Future:
 
-1. Colored Text
-2. End Game talents/achievements system
-3. Recreate game in Pygame with buttons and sounds instead of just text - This will be V3.0 
-4. V4.0 Will include animations, a 3D map, and more!
+1. Pacifist Options
+2. Romance Options
+3. Character Gender
