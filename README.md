@@ -8,6 +8,10 @@ Due to the massive support for my game, I've been working relentlessly on update
 * Weekly patches to fix any bugs that are found
 * Monthly updates to add new in-game content
 
+# Known Bugs:
+
+* .exe file of current release is having issues. Will be fixed in V2.3
+
 # How To Download
 1. Choose which version you want to download (I highly suggest the latest release)
 2. Click the .zip file for selected version
