@@ -1,8 +1,14 @@
 # Minions of the Dragon
 A Text RPG Game created for my own fun times!
-Please leave me feedback here or (if you know me) in my Discord DMs when you have the chance!
+Please leave me feedback when you have the chance!
 
-How To Download:
+# Update Schedule
+Due to the massive support for my game, I've been working relentlessly on updates. Sometimes though, you need a break. So, here's what to expect starting after V2.3:
+
+* Weekly patches to fix any bugs that are found
+* Monthly updates to add new in-game content
+
+# How To Download
 1. Choose which version you want to download (I highly suggest the latest release)
 2. Click the .zip file for selected version
 3. Click the "download" button on the bottom-right side of the screen
@@ -10,19 +16,7 @@ How To Download:
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
-If you'd like to submit a bug/suggestion on GitHub:
-1. Make sure it is for the latest version of the game, since I'm not updating any of the previous versions
-2. Go to the Issues tab in the top-left of this site
-3. Click the button "New Issue" in the upper left corner
-4. Give it a title, and describe the following:
-  * Job of your Character
-  * Level of Character
-  * Quest you were on
-  * What the bug/suggestion is
-5. Be aware I may respond to ask for more info depending on situation.
-
-# V2.2 Patch Notes
-# FINALLY WE HAVE ENDGAME!
+# V2.2 Patch Notes: FINALLY WE HAVE ENDGAME!
 
 * Colored Text!
 * Fixed HUGE Bugs
@@ -51,8 +45,7 @@ Added several new endgame features:
 * Typewriter effect added!
 * Devs will notice I've cleaned the code, too ;)
 
-# V2.0 Patch Notes
-# HUGE Improvements! STORY! BBEG REVEALED!
+# V2.0 Patch Notes: HUGE Improvements! STORY! BBEG REVEALED!
 
 Added a TON of new stuff:
 
@@ -73,8 +66,7 @@ Added a TON of new stuff:
 * Shamans DO have TOTEM ATK stat!
 * Added END GAME BOSS: The evil Dragon!!!
 
-# V1.1 Patch Notes
-# Introducing: Mana and abilities! 
+# V1.1 Patch Notes: Introducing: Mana and abilities! 
 
 Changed/Added a few things:
 
