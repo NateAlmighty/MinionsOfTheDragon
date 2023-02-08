@@ -36,8 +36,7 @@ Added several new endgame features:
  3. MAXMP increases when you buy items!
  4. And upon completing an aspect of the game, a 100 to all stats increase!
  
-# V2.1 Patch Notes
-# NOW WITH SAVE FILES! And More!!
+# V2.1 Patch Notes: NOW WITH SAVE FILES! And More!!
 
 * Finally no longer generically named: Minions of the Dragon is now live!
 * Autosave Added!
