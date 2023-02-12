@@ -12,7 +12,7 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 * Had to delete all previous files as something about the .exe conversion corrupted them. Will be fixed in V2.3
 
-# How To Download
+# How To Download the .exe Version:
 1. Choose which version you want to download (I highly suggest the latest release)
 2. Click the .zip file for selected version
 3. Click the "download" button on the bottom-right side of the screen
