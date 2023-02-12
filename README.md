@@ -10,7 +10,7 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # Known Bugs:
 
-* Had to delete all previous files as something about the .exe conversion corrupted the them. Will be fixed in V2.3
+* Had to delete all previous files as something about the .exe conversion corrupted them. Will be fixed in V2.3
 
 # How To Download
 1. Choose which version you want to download (I highly suggest the latest release)
