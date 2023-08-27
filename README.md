@@ -24,10 +24,10 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # V1.0:
 
-Includes a basic combat system with potions, and attack
-Includes a basic exploration system that allows you to find enemies, go back to the shop to restock potions and elixirs or upgrade your weapon, and talk to the Mayor.
-Includes a weapon leveling system that unlocks the end boss, the Dragon, at level 10.
-Includes a single-file save/load system.
+* Includes a basic combat system with potions, and attack
+* Includes a basic exploration system that allows you to find enemies, go back to the shop to restock potions and elixirs or upgrade your weapon, and talk to the Mayor.
+* Includes a weapon leveling system that unlocks the end boss, the Dragon, at level 10.
+* Includes a single-file save/load system.
 
 # Add in Future:
 
