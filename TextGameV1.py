@@ -3,95 +3,33 @@ import random
 import sys
 import time
 
+run, menu, play, rules, key, fight, standing, buy, speak, boss = True, True, False, False, False, False, True, False, False, False
+HP, HPMAX, ATK, pot, elix, gold, x, y = 50, 50, 3, 1, 0, 0, 0, 0
 
-run = True
-menu = True
-play = False
-rules = False
-key = False
-fight = False
-standing = True
-buy = False
-speak = False
-boss = False
+map = [["shop", "mayor", "bridge", "plains", "forest", "mountain", "cave"],
+       ["bridge", "bridge", "forest", "forest", "forest", "hills", "mountain"],
+       ["forest", "fields", "forest", "plains", "hills", "forest", "hills"],
+       ["plains", "plains", "plains", "fields", "plains", "hills", "mountain"],
+       ["plains", "fields", "fields", "plains", "hills", "mountain", "mountain"]]
+y_len, x_len = len(map) - 1, len(map[0]) - 1
 
-HP = 50
-HPMAX = 50
-ATK = 3
-pot = 1
-elix = 0
-gold = 0
-x = 0
-y = 0
-
-        #  x = 0       x = 1       x = 2       x = 3       x = 4       x = 5         x = 6
-map = [["shop",     "mayor",   "bridge",   "plains",   "forest", "mountain",       "cave"],    # y = 0
-       ["bridge",   "bridge",   "forest",   "forest",   "forest",    "hills",   "mountain"],    # y = 1
-       ["forest",   "fields",   "forest",   "plains",    "hills",   "forest",      "hills"],    # y = 2
-       ["plains",   "plains",   "plains",    "fields",   "plains",    "hills",   "mountain"],    # y = 3
-       ["plains",   "fields",   "fields",   "plains",    "hills", "mountain",   "mountain"]]    # y = 4
-
-y_len = len(map)-1
-x_len = len(map[0])-1
-
-biom = {
-    "plains": {
-        "t": "PLAINS",
-        "e": True},
-    "forest": {
-        "t": "WOODS",
-        "e": True},
-    "fields": {
-        "t": "FIELDS",
-        "e": False},
-    "bridge": {
-        "t": "BRIDGE",
-        "e": False},
-    "town": {
-        "t": "TOWN CENTRE",
-        "e": False},
-    "shop": {
-        "t": "SHOP",
-        "e": False},
-    "mayor": {
-        "t": "MAYOR",
-        "e": False},
-    "cave": {
-        "t": "CAVE",
-        "e": False},
-    "mountain": {
-        "t": "MOUNTAIN",
-        "e": True},
-    "hills": {
-        "t": "HILLS",
-        "e": True,
-    }
-}
+biom = {"plains": {"t": "PLAINS", "e": True},
+        "forest": {"t": "WOODS", "e": True},
+        "fields": {"t": "FIELDS", "e": False},
+        "bridge": {"t": "BRIDGE", "e": False},
+        "town": {"t": "TOWN CENTRE", "e": False},
+        "shop": {"t": "SHOP", "e": False},
+        "mayor": {"t": "MAYOR", "e": False},
+        "cave": {"t": "CAVE", "e": False},
+        "mountain": {"t": "MOUNTAIN", "e": True},
+        "hills": {"t": "HILLS", "e": True}}
 
 e_list = ["Goblin", "Orc", "Slime"]
 
-mobs = {
-    "Goblin": {
-        "hp": 15,
-        "at": 3,
-        "go": 8
-    },
-    "Orc": {
-        "hp": 35,
-        "at": 5,
-        "go": 18
-    },
-    "Slime": {
-        "hp": 30,
-        "at": 2,
-        "go": 12
-    },
-    "Dragon": {
-        "hp": 100,
-        "at": 8,
-        "go": 100
-    }
-}
+mobs = {"Goblin": {"hp": 15, "at": 3, "go": 8},
+        "Orc": {"hp": 35, "at": 5, "go": 18},
+        "Slime": {"hp": 30, "at": 2, "go": 12},
+        "Dragon": {"hp": 100, "at": 8, "go": 100}}
 
 
 def clear():
@@ -103,55 +41,31 @@ def typewriter(text):
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.05)
-        if char == "! " or char == ". " or char == "? " or char == len(text) - 1:
+        if char in ["! ", ". ", "? ", len(text) - 1]:
             typewriter("\n")
         time.sleep(0.01)
-        
-        
+
+
 def draw():
     typewriter("xX--------------------xX\n")
 
 
 def save():
-    list = [
-        name,
-        str(HP),
-        str(ATK),
-        str(pot),
-        str(elix),
-        str(gold),
-        str(x),
-        str(y),
-        str(key)
-    ]
-
-    file = open("load.txt", "w")
-
-    for item in list:
-        file.write(item + "\n")
-    file.close()
+    data = [name, str(HP), str(ATK), str(pot), str(elix), str(gold), str(x), str(y), str(key)]
+    with open("load.txt", "w") as file:
+        file.write("\n".join(data))
 
 
 def heal(amount):
     global HP
-    if HP + amount < HPMAX:
-        HP += amount
-    else:
-        HP = HPMAX
+    HP = min(HP + amount, HPMAX)
     typewriter(name + "'s HP refilled to " + str(HP) + "!")
 
 
 def battle():
     global fight, play, run, HP, pot, elix, gold, boss
-
-    if not boss:
-        enemy = random.choice(e_list)
-    else:
-        enemy = "Dragon"
-    hp = mobs[enemy]["hp"]
-    hpmax = hp
-    atk = mobs[enemy]["at"]
-    g = mobs[enemy]["go"]
+    enemy = random.choice(e_list) if not boss else "Dragon"
+    hp, hpmax, atk, g = mobs[enemy]["hp"], mobs[enemy]["hp"], mobs[enemy]["at"], mobs[enemy]["go"]
 
     while fight:
         clear()
@@ -203,9 +117,7 @@ def battle():
         if HP <= 0:
             typewriter(enemy + " defeated " + name + "...\n")
             draw()
-            fight = False
-            play = False
-            run = False
+            fight, play, run = False, False, False
             typewriter("GAME OVER\n")
             input("> ")
 
@@ -221,9 +133,7 @@ def battle():
             if enemy == "Dragon":
                 draw()
                 typewriter("Congratulations, you've finished the game! ...for now. Come back later for updates!\n")
-                boss = False
-                play = False
-                run = False
+                boss, play, run = False, False, False
             input("> ")
             clear()
 
@@ -324,7 +234,6 @@ def cave():
             boss = False
 
 
-
 while run:
     while menu:
         typewriter("1: NEW GAME\n")
@@ -333,8 +242,10 @@ while run:
         typewriter("4: QUIT GAME\n")
 
         if rules:
-            typewriter("Ok, the rules are simple: Go out, kill enemies, and level up your weapon in the Shop.\n")
-            typewriter("Once your weapon reaches level 10, talk to the Mayor to recieve a key to the Dragon's Lair!\n")
+            typewriter(
+                "Ok, the rules are simple: Go out, kill enemies, and level up your weapon in the Shop.\n")
+            typewriter(
+                "Once your weapon reaches level 10, talk to the Mayor to receive a key to the Dragon's Lair!\n")
             typewriter("Defeat the Dragon and save the town!\n")
             typewriter("Oh, and check back in every now and then for updates to this game!\n")
             typewriter("Now, press any button to return to the main menu.""\n")
@@ -351,18 +262,13 @@ while run:
             play = True
         elif choice == "2":
             try:
-                f = open("load.txt", "r")
-                load_list = f.readlines()
+                with open("load.txt", "r") as f:
+                    load_list = f.readlines()
                 if len(load_list) == 9:
-                    name = load_list[0][:-1]
-                    HP = int(load_list[1][:-1])
-                    ATK = int(load_list[2][:-1])
-                    pot = int(load_list[3][:-1])
-                    elix = int(load_list[4][:-1])
-                    gold = int(load_list[5][:-1])
-                    x = int(load_list[6][:-1])
-                    y = int(load_list[7][:-1])
-                    key = bool(load_list[8][:-1])
+                    name, HP, ATK, pot, elix, gold, x, y, key = load_list[0][:-1], int(load_list[1][:-1]), int(
+                        load_list[2][:-1]), int(load_list[3][:-1]), int(load_list[4][:-1]), int(
+                        load_list[5][:-1]), int(load_list[6][:-1]), int(load_list[7][:-1]), bool(
+                        load_list[8][:-1])
                     clear()
                     typewriter("Welcome back, " + name + "!")
                     input("> ")
@@ -415,7 +321,7 @@ while run:
                 typewriter("5 - USE POTION (30HP)""\n")
             if elix > 0:
                 typewriter("6 - USE ELIXIR (50HP)""\n")
-            if map[y][x] == "shop" or map[y][x] == "mayor" or map[y][x] == "cave":
+            if map[y][x] in ["shop", "mayor", "cave"]:
                 typewriter("7 - ENTER""\n")
             draw()
 
@@ -425,22 +331,18 @@ while run:
                 play = False
                 menu = True
                 save()
-            elif dest == "1":
-                if y > 0:
-                    y -= 1
-                    standing = False
-            elif dest == "2":
-                if x < x_len:
-                    x += 1
-                    standing = False
-            elif dest == "3":
-                if y < y_len:
-                    y += 1
-                    standing = False
-            elif dest == "4":
-                if x > 0:
-                    x -= 1
-                    standing = False
+            elif dest == "1" and y > 0:
+                y -= 1
+                standing = False
+            elif dest == "2" and x < x_len:
+                x += 1
+                standing = False
+            elif dest == "3" and y < y_len:
+                y += 1
+                standing = False
+            elif dest == "4" and x > 0:
+                x -= 1
+                standing = False
             elif dest == "5":
                 if pot > 0:
                     pot -= 1
