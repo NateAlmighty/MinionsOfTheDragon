@@ -31,9 +31,9 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # Add in Future:
 
-1. More Monster Types
-2. Classes
-3. Abilities
-4. More Shop Options
-5. Mayor Quests
-6. Endgame
+1. Classes
+2. Abilities
+3. More Shop Options
+4. Mayor Quests
+5. More Monster Types
+7. Endgame
