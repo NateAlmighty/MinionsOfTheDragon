@@ -8,7 +8,7 @@ I have made the python release open for all to view and tweak where you think it
 <3 Much love!
 
 # Update Schedule
-Due to the massive support for my game, I've been working relentlessly on updates. Sometimes though, you need a break. So, here's what to expect starting after V2.3:
+Due to the massive support for my game, I've been working relentlessly on updates. Sometimes though, you need a break. So, here's what to expect starting now:
 
 * Weekly patches to fix any bugs that are found
 * Monthly updates to add new in-game content
@@ -31,8 +31,9 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # Add in Future:
 
-1. Classes
-2. Abilities
-3. More Shop Options
-4. Mayor Quests
-5. Endgame
+1. More Monster Types
+2. Classes
+3. Abilities
+4. More Shop Options
+5. Mayor Quests
+6. Endgame
