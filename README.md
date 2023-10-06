@@ -22,6 +22,12 @@ Due to the massive support for my game, I've been working relentlessly on update
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
+# V1.1:
+
+* Added 3 classes, called jobs: Warrior, Rogue, and Mage
+* Added abilities for each class
+* Added mana; elixirs now restore mana instead of HP
+
 # V1.0:
 
 * Includes a basic combat system with potions, and attack
