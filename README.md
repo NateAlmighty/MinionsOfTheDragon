@@ -22,6 +22,15 @@ Due to the massive support for my game, I've been working relentlessly on update
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
+# 1.2 - Adding More Shop Options:
+
+* Shop Weapon option only increases ATK power by 1
+* Added Shield Upgrade: Increases MAXHP by 10
+* Added Hat Upgrade: Increases MAXMP by 10
+* Added Shop Upgrade: Increases the level of the elixirs and potions in the shop.
+* Added levels to Elixirs and Potions: Each level increases your healing and mana regen by 20
+* Added How-to-Play: Yes, it will no longer send you back to start.
+
 # V1.1:
 
 * Added 3 classes, called jobs: Warrior, Rogue, and Mage
@@ -37,7 +46,6 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # Add in Future:
 
-1. More Shop Options
-2. Mayor Quests
-3. More Monster Types
-4. Endgame
+1. Mayor Quests
+2. More Monster Types
+3. Endgame
