@@ -22,7 +22,7 @@ Due to the massive support for my game, I've been working relentlessly on update
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
-# 1.2 - Adding More Shop Options:
+# V1.2: Adding More Shop Options:
 
 * Shop Weapon option only increases ATK power by 1
 * Added Shield Upgrade: Increases MAXHP by 10
