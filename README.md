@@ -48,4 +48,5 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 1. Mayor Quests
 2. More Monster Types
-3. Endgame
+3. Graphics and Music
+4. Endgame
