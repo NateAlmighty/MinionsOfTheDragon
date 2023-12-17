@@ -10,9 +10,8 @@ I have made the python release open for all to view and tweak where you think it
 # Update Schedule
 Due to the massive support for my game, I've been working relentlessly on updates. Sometimes though, you need a break. So, here's what to expect starting now:
 
-* Weekly patches to fix any bugs that are found
 * Monthly updates to add new in-game content
-
+* January updates will generally make much bigger changes to the game than other months.
 
 # How To Download And Play:
 1. Choose which version you want to download (I highly suggest the latest release)
