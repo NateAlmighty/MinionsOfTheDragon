@@ -52,7 +52,6 @@ Due to the massive support for my game, I've been working relentlessly on update
 
 # Add in Future:
 
-1. Mayor Quests
-2. More Monster Types
-3. Graphics and Music
-4. Endgame
+1. Graphics and Music
+2. More Monster Types/More Mayor Quests
+3. Endgame
