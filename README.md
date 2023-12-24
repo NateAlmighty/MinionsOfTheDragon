@@ -1,3 +1,5 @@
+# HEADS UP: JANUARY'S UPDATE WILL NOT BE COMPATIBLE WITH YOUR CURRENT SAVE FILE! PLEASE BE AWARE OF THIS!
+
 # Minions of the Dragon
 A Text RPG Game created for my own fun times!
 Please leave me feedback when you have the chance!
@@ -20,6 +22,11 @@ Due to the massive support for my game, I've been working relentlessly on update
 4. Choose your destination
 5. Extract the zip file and run the .exe
 6. Enjoy!
+
+#V1.3: Final Update of the Year:
+
+* Added Mayor's Quests
+* Added Flavor Text for Certain Minion Kills
 
 # V1.2: Adding More Shop Options:
 
