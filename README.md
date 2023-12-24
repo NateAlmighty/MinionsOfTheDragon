@@ -23,7 +23,7 @@ Due to the massive support for my game, I've been working relentlessly on update
 5. Extract the zip file and run the .exe
 6. Enjoy!
 
-#V1.3: Final Update of the Year:
+# V1.3: Final Update of the Year:
 
 * Added Mayor's Quests
 * Added Flavor Text for Certain Minion Kills
